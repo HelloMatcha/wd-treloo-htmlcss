@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    width: auto;
+    background-color: rgb(20, 20, 20);
+}
+
+/* Navigation */
+.topnav {
+    background-color: transparent;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    top: 0;
+  }
+  
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(106, 233, 255);
+    border-radius: 5rem;
+  }  
+  
+  .topnav a.active {
+    background-color: #d4d4d4;
+    color: white;
+  }
+  .topnav img {
+    margin-left: 4rem;
+    width: 100px;
+    height: auto;
+  }
+
+/* Overlay */
+.header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+  }
+
+  .header img{
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: -10rem;
+  }
+
+  .overlay{
+    position: absolute;
+    left: 47rem; 
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    color: white;
+    padding: 20px; 
+    border-radius: 2px; 
+    width: 100%;
+    margin-left: -15px;
+    align-items: center;
+    align-content: center;
+  }
+
+  .overlay h1 {
+    margin-left: -5rem;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: transparent;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+  .overlay h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-right: 100px;
+    margin-top: 60px;
+  }
