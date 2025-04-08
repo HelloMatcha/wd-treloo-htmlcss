@@ -27,6 +27,7 @@ body{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 30px;
+    margin-right: 1rem;
   }
   
   .topnav a:hover {
@@ -159,7 +160,7 @@ body{
     width: 20rem;
     height: 13rem;
     object-fit: cover;
-    object-position: center top; /* 👈 This is the important part */
+    object-position: center top; 
     transition: transform 0.3s ease-in-out;
     object-position: 100% center;
     }
@@ -170,7 +171,7 @@ body{
     line-height: 0.5rem;
     font-weight: normal;
     color: rgb(0, 0, 0);
-    padding: 0 1rem; /* Some padding for better appearance */
+    padding: 0 1rem;
     }
   
     .product-item h4 {
@@ -183,3 +184,63 @@ body{
       margin-right: 2rem ;
     }
 
+    /* Introduction */
+    /* Introduction */
+.introduction{
+    display: flex; /* Enables flexbox */
+    align-items: center; /* Aligns items vertically */
+    justify-content: flex-start; /* Push content to the right */
+    gap: 1rem; /* Adds space between image and text */
+    padding: 1rem; /* Adds spacing inside */
+    transform: translateY(100px);
+    transition: opacity 2s ease-out, transform 2s ease-out;
+    margin-top: -1rem;
+    margin-left: 3rem;
+  }
+  
+  .introduction img {
+    width: 30rem;
+    height: auto;
+    object-fit: cover;
+    }
+  
+  .introduction .text {
+    color: rgb(39, 35, 88);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: justify;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 3rem;
+    flex: 1;
+    line-height: 3rem;
+    
+    }
+  
+    .introduction h1{
+        margin-left: 5rem;
+        font-size: 3rem;
+        text-align: justify;
+        color: rgb(0, 0, 0);
+        display: inline-block; /* Ini membatasi border mengikuti panjang konten */
+        padding-bottom: 0.5rem;
+        line-height: 4rem;
+      }
+  
+    .introduction p {
+      font-size: 25px;
+      text-align: justify;
+      color: rgb(73, 73, 73);
+      margin-left: 5rem;
+      margin-right: 15rem;
+      line-height: 3rem;
+      margin-bottom: 5rem;
+    }
+
+    .introduction a{
+        padding: 1rem;
+        background-color: rgb(61, 122, 255);
+        border-radius: 1rem;
+        margin-left: 5rem;
+        color: white;
+        font-size: 2rem;
+    }
